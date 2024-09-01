@@ -1,0 +1,42 @@
+body{
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.img_box{
+    display: flex;
+     flex-direction: column;
+    width: 300px;
+    align-items: center;
+  
+   
+}
+img{
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+button{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(128, 152, 247);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.6), 0 0 20px rgba(255, 255, 0, 0.4); 
+}
+button:active{
+    background-color: #ffff33;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8), 0 0 30px rgba(255, 255, 0, 0.6);
+    transform: scale(0.95);
+}
